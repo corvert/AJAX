@@ -34,12 +34,22 @@ namespace AJAX.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult CreateModalForm()
         {
             Country country = new Country();
             return PartialView("_CreateModalForm", country);
         }
+
+        [HttpPost]
+        public IActionResult CreateModalForm(Country country)
+        {
+            _context.Add(country);
+            _context.SaveChanges();
+            return NoContent();
+        }
+
+
 
         [HttpGet]
         public IActionResult Details(int Id)
@@ -98,6 +108,25 @@ namespace AJAX.Controllers
                 return View(country);
             }
             return RedirectToAction(nameof(Index));
+        }
+
+        public JsonResult GetCountries()
+        {
+            var lstCountries = new List<SelectListItem>();
+            List<Country> countries = _context.Countries.ToList();
+            lstCountries = countries.Select(c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.Name
+            }).ToList();
+
+            var defitem = new SelectListItem()
+            {
+                Value = "",
+                Text = "Select Country"
+            };
+            lstCountries.Insert(0, defitem);
+            return Json(lstCountries);
         }
     }
 }
