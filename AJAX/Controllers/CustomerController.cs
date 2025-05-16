@@ -50,8 +50,13 @@ namespace AJAX.Controllers
         [HttpGet]
         public IActionResult Edit(int id)
         {
-            Customer customer = _context.Customers.Where(c => c.Id == id).FirstOrDefault();
+            Customer customer = _context.Customers.Include(co => co.City)
+                .Where(c => c.Id == id).FirstOrDefault();
+
+            customer.CountryId = customer.City.CountryId;
+
             ViewBag.Countries = GetCountries();
+            ViewBag.Cities = GetCities(customer.CountryId);
             return View(customer);
         }
         [ValidateAntiForgeryToken]
@@ -132,6 +137,19 @@ namespace AJAX.Controllers
                 }
             }
             return uniqueFileName;
+        }
+
+        private List<SelectListItem> GetCities(int countryId)
+        {
+          List<SelectListItem> cities = _context.Cities
+                .Where(c => c.CountryId == countryId)
+                .OrderBy(n => n.Name)
+                .Select(n => new SelectListItem
+                {
+                    Value = n.Id.ToString(),
+                    Text = n.Name
+                }).ToList();
+            return cities;
         }
     }
 }
