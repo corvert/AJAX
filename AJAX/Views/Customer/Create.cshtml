@@ -50,7 +50,7 @@
             </div>
 
             <div class="form-group btn-group col-12">
-            <div class="form-group">
+            <div class="col-11">
                 <label asp-for="CountryId" class="control-label"></label>
                 <select id="lstCountryId" asp-for="CountryId" class="form-control" asp-items="ViewBag.Countries" 
                 onchange="FillCities(this, 'lstCity');"></select>
@@ -63,11 +63,19 @@
 
 
             </div>
-
-            <div class="form-group">
+            <div class="form-group btn-group col-12">
+            <div class="col-11">
                 <label asp-for="CityId" class="control-label"></label>
                 <select id="lstCity" asp-for="CityId" class="form-control" asp-items="ViewBag.Cities"></select>
             </div>
+            <div class="col-1 mt-4">
+                    <button class="btn btn-success" onclick="ShowCityCreateModal();">
+                    +
+                </button>
+            </div>
+
+
+    </div>
 
             <div class="col-md-12 btn-group pb-2">
                 <div class="form-group col-4 p-0">

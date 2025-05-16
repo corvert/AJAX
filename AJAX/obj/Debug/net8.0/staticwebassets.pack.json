@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\images\\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg",
+      "PackagePath": "staticwebassets\\images\\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg"
+    },
+    {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\images\\73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg",
+      "PackagePath": "staticwebassets\\images\\73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg"
+    },
+    {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\images\\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg",
+      "PackagePath": "staticwebassets\\images\\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg"
+    },
+    {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\images\\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg",
+      "PackagePath": "staticwebassets\\images\\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg"
+    },
+    {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\images\\profile.jpg",
+      "PackagePath": "staticwebassets\\images\\profile.jpg"
+    },
+    {
       "Id": "C:\\AJAX\\AJAX\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -195,6 +215,14 @@
     {
       "Id": "C:\\AJAX\\AJAX\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Id": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
     },
     {
       "Id": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

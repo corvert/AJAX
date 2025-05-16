@@ -3,6 +3,24 @@
 
 // Write your JavaScript code.
 
+
+function ShowCityCreateModal() {
+    var lstCountryCtrl = document.getElementById("lstCountryId");
+    var countryId = lstCountryCtrl.options[lstCountryCtrl.selectedIndex].value;
+    $.ajax(
+        {
+            url: "/city/CreateModalFrom?countryId=" + countryId,
+
+            type: "GET",
+            success: function (responese) {
+                $("#DivCreateDialog").html(responese);
+                ShowCreateModalForm();
+            }
+        }
+    )
+    return;
+}
+
 function FillCities(lstCountryCtrl, lstCityId) {
     var lstCities = $("#" + lstCityId);
     lstCities.empty();
@@ -51,6 +69,12 @@ function refreshCountryList() {
     var btnBack = document.getElementById("dupBackBtn");
     btnBack.click();
     FillCountries("lstCountryId")
+}
+function refreshCityList() {
+    var btnBack = document.getElementById("dupBackBtn");
+    btnBack.click();
+    var lstCountryCtrl = document.getElementById("lstCountryId");
+    FillCities(lstCountryCtrl, "lstCityId");
 }
 
 function FillCountries(lstCountryId) {

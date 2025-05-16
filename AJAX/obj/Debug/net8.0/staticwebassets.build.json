@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZHN6tlcDWLsFGz5GR3wMwrF1hD4VDFE+yZTvObncRIM=",
+  "Hash": "Z8ja4a0qNNEHEiMQlg4eHeVSVklidwO8tsBlhQHp8Wk=",
   "Source": "AJAX",
   "BasePath": "_content/AJAX",
   "Mode": "Default",
@@ -101,6 +101,111 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\images\\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "images/072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0fdff99w90",
+      "Integrity": "rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg"
+    },
+    {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\images\\73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "images/73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0fdff99w90",
+      "Integrity": "rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg"
+    },
+    {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\images\\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "images/a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "62g6ejnm20",
+      "Integrity": "Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg"
+    },
+    {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\images\\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "images/d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "62g6ejnm20",
+      "Integrity": "Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg"
+    },
+    {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\images\\profile.jpg",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "images/profile#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hd4ajhcj91",
+      "Integrity": "W3QcQhUnIU3U8YUSRIKM9D2F4+QV0d+ut4yPBUzrNEU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile.jpg"
+    },
+    {
       "Identity": "C:\\AJAX\\AJAX\\wwwroot\\js\\site.js",
       "SourceId": "AJAX",
       "SourceType": "Discovered",
@@ -115,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "jeftfsf3mq",
+      "Integrity": "xf21Vv3Ma3KNP2DBqk8qmo70DCBHaJpQGLFyi/cBtGw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1151,6 +1256,48 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vs3qwh9hx3",
+      "Integrity": "v2nySZafnswY87um3ymbg7p9f766IQspC5oqaqZVX2c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js"
+    },
+    {
+      "Identity": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "SourceId": "AJAX",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AJAX\\AJAX\\wwwroot\\",
+      "BasePath": "_content/AJAX",
+      "RelativePath": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8ve2wm9mbw",
+      "Integrity": "PAC000yuHt78nszJ2RO0OiDMu/uLzPLRlYTk8J3AO10=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js"
+    },
+    {
       "Identity": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "AJAX",
       "SourceType": "Discovered",
@@ -1649,6 +1796,461 @@
       ]
     },
     {
+      "Route": "images/072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.0fdff99w90.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3606926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0fdff99w90"
+        },
+        {
+          "Name": "label",
+          "Value": "images/072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8="
+        }
+      ]
+    },
+    {
+      "Route": "images/072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3606926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:38:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8="
+        }
+      ]
+    },
+    {
+      "Route": "images/73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.0fdff99w90.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3606926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:58:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0fdff99w90"
+        },
+        {
+          "Name": "label",
+          "Value": "images/73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8="
+        }
+      ]
+    },
+    {
+      "Route": "images/73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\73c0f5b1-da81-477a-be50-904b8bf73983_20250416_182326.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3606926"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:58:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rLQjAkoZoEoicOPt6wnGQqShNTAaGfR+tmtujTPRf/8="
+        }
+      ]
+    },
+    {
+      "Route": "images/a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.62g6ejnm20.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4005278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:39:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "62g6ejnm20"
+        },
+        {
+          "Name": "label",
+          "Value": "images/a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw="
+        }
+      ]
+    },
+    {
+      "Route": "images/a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4005278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:39:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw="
+        }
+      ]
+    },
+    {
+      "Route": "images/d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.62g6ejnm20.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4005278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "62g6ejnm20"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw="
+        }
+      ]
+    },
+    {
+      "Route": "images/d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4005278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 15:16:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw="
+        }
+      ]
+    },
+    {
+      "Route": "images/profile.hd4ajhcj91.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1759068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3QcQhUnIU3U8YUSRIKM9D2F4+QV0d+ut4yPBUzrNEU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hd4ajhcj91"
+        },
+        {
+          "Name": "label",
+          "Value": "images/profile.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W3QcQhUnIU3U8YUSRIKM9D2F4+QV0d+ut4yPBUzrNEU="
+        }
+      ]
+    },
+    {
+      "Route": "images/profile.jpg",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\images\\profile.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1759068"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W3QcQhUnIU3U8YUSRIKM9D2F4+QV0d+ut4yPBUzrNEU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 31 Mar 2025 07:56:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W3QcQhUnIU3U8YUSRIKM9D2F4+QV0d+ut4yPBUzrNEU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.jeftfsf3mq.js",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xf21Vv3Ma3KNP2DBqk8qmo70DCBHaJpQGLFyi/cBtGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 17:49:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jeftfsf3mq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xf21Vv3Ma3KNP2DBqk8qmo70DCBHaJpQGLFyi/cBtGw="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1659,7 +2261,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "3143"
         },
         {
           "Name": "Content-Type",
@@ -1667,11 +2269,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"xf21Vv3Ma3KNP2DBqk8qmo70DCBHaJpQGLFyi/cBtGw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 11:57:53 GMT"
+          "Value": "Fri, 16 May 2025 17:49:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,52 +2283,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 15 May 2025 11:57:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-xf21Vv3Ma3KNP2DBqk8qmo70DCBHaJpQGLFyi/cBtGw="
         }
       ]
     },
@@ -5745,6 +6302,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2nySZafnswY87um3ymbg7p9f766IQspC5oqaqZVX2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2nySZafnswY87um3ymbg7p9f766IQspC5oqaqZVX2c="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.8ve2wm9mbw.js",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PAC000yuHt78nszJ2RO0OiDMu/uLzPLRlYTk8J3AO10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8ve2wm9mbw"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PAC000yuHt78nszJ2RO0OiDMu/uLzPLRlYTk8J3AO10="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PAC000yuHt78nszJ2RO0OiDMu/uLzPLRlYTk8J3AO10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PAC000yuHt78nszJ2RO0OiDMu/uLzPLRlYTk8J3AO10="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.vs3qwh9hx3.js",
+      "AssetFile": "C:\\AJAX\\AJAX\\wwwroot\\lib\\jquery-ajax-unobtrusive\\jquery.unobtrusive-ajax.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2nySZafnswY87um3ymbg7p9f766IQspC5oqaqZVX2c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 16:00:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vs3qwh9hx3"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2nySZafnswY87um3ymbg7p9f766IQspC5oqaqZVX2c="
         }
       ]
     },

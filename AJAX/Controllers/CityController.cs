@@ -104,5 +104,38 @@ namespace AJAX.Controllers
             lstCountries.Insert(0, defitem);
             return lstCountries;
         }
+
+
+        [HttpGet]
+        public IActionResult CreateModalFrom(int countryId)
+        {
+            City city = new City();
+            city.CountryId = countryId;
+            city.CountryName = GetCountryName(countryId);
+            return PartialView("_CreateModalFrom", city); 
+        }
+
+        [HttpPost]
+        public IActionResult CreateModalFrom(City city)
+        {
+         _context.Add(city);
+            _context.SaveChanges();
+            return NoContent();
+        }
+
+        private string GetCountryName(int countryId)
+        {
+            if(countryId == 0)
+            
+                return "";
+
+            string strCountryName = _context.Countries
+                .Where(c => c.Id == countryId)
+                .Select(c => c.Name).Single().ToString();
+
+            return strCountryName;
+        }
+
+
     }
 }
