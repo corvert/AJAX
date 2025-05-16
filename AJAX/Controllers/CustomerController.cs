@@ -6,9 +6,11 @@ namespace AJAX.Controllers
     {
 
         private readonly AppDBContext _context;
-        public CustomerController(AppDBContext context)
+        private readonly IWebHostEnvironment _webHost;
+        public CustomerController(AppDBContext context, IWebHostEnvironment webHost)
         {
             _context = context;
+            _webHost = webHost;
         }
         public IActionResult Index()
         {
@@ -28,7 +30,11 @@ namespace AJAX.Controllers
         [HttpPost]
         public IActionResult Create(Customer customer)
         {
-           _context.Add(customer);
+
+            string uniqueFileName = GetProfilePhotoFileName(customer);
+            customer.PhotoUrl = uniqueFileName;
+
+            _context.Add(customer);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
@@ -99,17 +105,33 @@ namespace AJAX.Controllers
         }
 
         [HttpGet]
-        public JsonResult GetCitiesByCountry(int countyId)
+        public JsonResult GetCitiesByCountry(int countryId)
         {
             List<SelectListItem> cities = _context.Cities
-                .Where(c => c.CountryId == countyId)
+                .Where(c => c.CountryId == countryId)
                 .OrderBy(n => n.Name)
-                .Select(c => new SelectListItem
+                .Select(n => new SelectListItem
                 {
-                    Value = c.Id.ToString(),
-                    Text = c.Name
+                    Value = n.Id.ToString(),
+                    Text = n.Name
                 }).ToList();
             return Json(cities);
+        }
+
+        private string GetProfilePhotoFileName(Customer customer)
+        {
+            string uniqueFileName = null;
+            if(customer.ProfilePhoto != null)
+            {
+                string uploadsFolder = Path.Combine(_webHost.WebRootPath, "images");
+                uniqueFileName = Guid.NewGuid().ToString() + "_" + customer.ProfilePhoto.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    customer.ProfilePhoto.CopyTo(fileStream);
+                }
+            }
+            return uniqueFileName;
         }
     }
 }
