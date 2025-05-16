@@ -41,3 +41,36 @@ function ShowCreateModalForm() {
     $("#DivCreateDialogHolder").modal('show');
     return;
 }
+
+function submitModalForm() {
+    var btnSubmit = document.getElementById("btnSubmit");
+    btnSubmit.click();
+}
+
+function refreshCountryList() {
+    var btnBack = document.getElementById("dupBackBtn");
+    btnBack.click();
+    FillCountries("lstCountryId")
+}
+
+function FillCountries(lstCountryId) {
+    var lstCountries = $("#" + lstCountryId);
+    lstCountries.empty();
+    lstCountries.append($('<option/>',
+        {
+            value: null,
+           
+        }));
+    $.getJSON('/country/GetCountries', function (countries) {
+        if (countries != null && !jQuery.isEmptyObject(countries)) {
+            $.each(countries, function (index, country) {
+                lstCountries.append($('<option/>',
+                    {
+                        value: country.value,
+                        text: country.text
+                    }));
+            });
+        };
+    });
+    return;
+}

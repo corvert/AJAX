@@ -16,7 +16,18 @@
 
             </div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-danger" data-icon="Close" data-bs-dismiss="modal">Close</button>
+			@* 	<button type="button" class="btn btn-danger" data-icon="Close" data-bs-dismiss="modal">Close</button> *@
+
+            <div class="btn-group">
+                <div>
+                    <button id="dupBackBtn" type="button" class="btn btn-danger" data-icon="back" data-bs-dismiss="modal">Back</button>
+                </div>
+                <div class="ml-4">
+                    <input id="dupSubmitBtn" type="button" value="Save" class="btn btn-primary" onclick="submitModalForm()" />
+                </div>
+            </div>
+
+
             </div>
 
         </div>
