@@ -42,8 +42,13 @@ namespace AJAX.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            Customer customer = _context.Customers.Where(c => c.Id == id).FirstOrDefault();
-           
+            Customer customer = _context.Customers
+                .Include(co => co.City)
+                .Include(co => co.City.Country)
+                .Where(c => c.Id == id).FirstOrDefault();
+
+
+
             return View(customer);
         }
 
