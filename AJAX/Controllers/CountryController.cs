@@ -34,6 +34,13 @@ namespace AJAX.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [HttpPost]
+        public IActionResult CreateModalForm()
+        {
+            Country country = new Country();
+            return PartialView("_CreateModalForm", country);
+        }
+
         [HttpGet]
         public IActionResult Details(int Id)
         {
