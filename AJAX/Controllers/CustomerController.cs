@@ -98,14 +98,16 @@ namespace AJAX.Controllers
 
         [ValidateAntiForgeryToken]
         [HttpPost]
-        public IActionResult Delete(Customer customer)
+        public IActionResult DeleteConfirmed(int id)
         {
-            _context.Attach(customer);
-            _context.Entry(customer).State = EntityState.Deleted;
-            _context.SaveChanges();
+            var customer = _context.Customers.Find(id);
+            if (customer != null)
+            {
+                _context.Customers.Remove(customer);
+                _context.SaveChanges();
+            }
             return RedirectToAction(nameof(Index));
         }
-
 
         private List<SelectListItem> GetCountries()
         {
