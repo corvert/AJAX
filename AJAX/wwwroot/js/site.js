@@ -74,7 +74,7 @@ function refreshCityList() {
     var btnBack = document.getElementById("dupBackBtn");
     btnBack.click();
     var lstCountryCtrl = document.getElementById("lstCountryId");
-    FillCities(lstCountryCtrl, "lstCityId");
+    FillCities(lstCountryCtrl, "lstCity");
 }
 
 function FillCountries(lstCountryId) {

@@ -54,6 +54,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\03326ced-93da-49e9-a0c2-7c3df916a29b_20250416_182145.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AJAX</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AJAX</BasePath>
+      <RelativePath>images/03326ced-93da-49e9-a0c2-7c3df916a29b_20250416_182145.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>62g6ejnm20</Fingerprint>
+      <Integrity>Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\03326ced-93da-49e9-a0c2-7c3df916a29b_20250416_182145.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\072b9b5b-0efa-4d65-baa1-193215ff9854_20250416_182326.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>AJAX</SourceId>
@@ -108,6 +126,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a4f12a26-161e-4a13-b540-5fc31831eb97_20250416_182145.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d8e6b1ba-9320-438b-9335-8c9f16d0951b_20250416_182257.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AJAX</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AJAX</BasePath>
+      <RelativePath>images/d8e6b1ba-9320-438b-9335-8c9f16d0951b_20250416_182257.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sfg8yudm4o</Fingerprint>
+      <Integrity>yBBC8vEd3OeoQLPI6edQ9rLgjbPCxDV5SWnhRXcO76Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d8e6b1ba-9320-438b-9335-8c9f16d0951b_20250416_182257.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>AJAX</SourceId>
@@ -125,6 +161,60 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d917d467-e12c-4047-9161-97f4f2e53899_20250416_182145.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e7370176-a3ec-4760-b371-0bbfcc48a602_20250416_182257.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AJAX</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AJAX</BasePath>
+      <RelativePath>images/e7370176-a3ec-4760-b371-0bbfcc48a602_20250416_182257.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sfg8yudm4o</Fingerprint>
+      <Integrity>yBBC8vEd3OeoQLPI6edQ9rLgjbPCxDV5SWnhRXcO76Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e7370176-a3ec-4760-b371-0bbfcc48a602_20250416_182257.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ee3e9f22-0ac4-4aeb-b26a-af7afd7d3e35_20250416_182257.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AJAX</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AJAX</BasePath>
+      <RelativePath>images/ee3e9f22-0ac4-4aeb-b26a-af7afd7d3e35_20250416_182257.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sfg8yudm4o</Fingerprint>
+      <Integrity>yBBC8vEd3OeoQLPI6edQ9rLgjbPCxDV5SWnhRXcO76Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ee3e9f22-0ac4-4aeb-b26a-af7afd7d3e35_20250416_182257.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f5c382b5-5841-4059-8c3d-47d57d0ab233_20250416_182145.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AJAX</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AJAX</BasePath>
+      <RelativePath>images/f5c382b5-5841-4059-8c3d-47d57d0ab233_20250416_182145.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>62g6ejnm20</Fingerprint>
+      <Integrity>Mn+UuL7n3+W8Xfz/Deu60m3h/jfreXpF8SYu+PqGLsw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f5c382b5-5841-4059-8c3d-47d57d0ab233_20250416_182145.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\profile.jpg'))">
       <SourceType>Package</SourceType>
@@ -156,8 +246,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jeftfsf3mq</Fingerprint>
-      <Integrity>xf21Vv3Ma3KNP2DBqk8qmo70DCBHaJpQGLFyi/cBtGw=</Integrity>
+      <Fingerprint>oh9lw0xfwv</Fingerprint>
+      <Integrity>TBPGLXWds4pG9vUmpvF+FBceojD5JzY96HB1atOqeq8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>

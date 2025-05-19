@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AJAX.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AJAX.Controllers
 {
@@ -12,7 +13,9 @@ namespace AJAX.Controllers
         }
         public IActionResult Index()
         {
-           List<City> cities = _context.Cities.ToList();
+           List<City> cities =  _context.Cities
+                .Include(c => c.Country)
+                .ToList();
             return View(cities);
         }
 
@@ -41,7 +44,9 @@ namespace AJAX.Controllers
         [HttpGet]
         public IActionResult Details(int id)
         {
-            City City = _context.Cities.Where(c => c.Id == id).FirstOrDefault();
+            City City = _context.Cities
+                .Include(co => co.Country)
+                .Where(c => c.Id == id).FirstOrDefault();
 
             return View(City);
         }
@@ -72,18 +77,31 @@ namespace AJAX.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            City city = _context.Cities.Where(c => c.Id == id).FirstOrDefault();
+            City city = _context.Cities
+                .Include(co => co.Country)
+                .Where(c => c.Id == id).FirstOrDefault();
             return View(city);
         }
 
         [ValidateAntiForgeryToken]
         [HttpPost]
         public IActionResult Delete(City city)
+
         {
-            _context.Attach(city);
-            _context.Entry(city).State = EntityState.Deleted;
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                _context.Attach(city);
+                _context.Entry(city).State = EntityState.Deleted;
+                _context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                _context.Entry(city).Reload();
+                ModelState.AddModelError("", ex.InnerException.Message);
+                return View(city);
+            }
+                return RedirectToAction(nameof(Index));
+            
         }
 
         private List<SelectListItem> GetCountries()
@@ -118,7 +136,7 @@ namespace AJAX.Controllers
         [HttpPost]
         public IActionResult CreateModalFrom(City city)
         {
-         _context.Add(city);
+            _context.Add(city);
             _context.SaveChanges();
             return NoContent();
         }
@@ -126,12 +144,11 @@ namespace AJAX.Controllers
         private string GetCountryName(int countryId)
         {
             if(countryId == 0)
-            
                 return "";
 
             string strCountryName = _context.Countries
                 .Where(c => c.Id == countryId)
-                .Select(c => c.Name).Single().ToString();
+                .Select(n => n.Name).Single().ToString();
 
             return strCountryName;
         }

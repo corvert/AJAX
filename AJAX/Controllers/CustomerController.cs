@@ -14,7 +14,9 @@ namespace AJAX.Controllers
         }
         public IActionResult Index()
         {
-            List<Customer> customers = _context.Customers.ToList();
+            List<Customer> customers = _context.Customers
+                .Include(c => c.City)
+                .ToList();
             return View(customers);
         }
 
@@ -87,7 +89,10 @@ namespace AJAX.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            Customer customer = _context.Customers.Where(c => c.Id == id).FirstOrDefault();
+            Customer customer = _context.Customers
+                .Include(co => co.City)
+                .Include(co => co.City.Country)
+                .Where(c => c.Id == id).FirstOrDefault();
             return View(customer);
         }
 
